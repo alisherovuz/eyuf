@@ -1,0 +1,409 @@
+[
+  {
+    "id": "eyuf-14",
+    "file": "/eyuf/eyuf-14.png",
+    "family": "geometry_counting",
+    "rule": "(Q36) 'Berilgan shakldagi uchburchaklar sonini toping' - count all triangles in ",
+    "optionLetters": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "C",
+    "difficulty": 2,
+    "explanation": "To‘rtta chorakda 8 ta kichik uchburchak bor. Rombning to‘rt yarmi yana 4 ta katta uchburchak hosil qiladi: 8 + 4 = 12."
+  },
+  {
+    "id": "eyuf-15",
+    "file": "/eyuf/eyuf-15.png",
+    "family": "numeric_operator_pattern",
+    "rule": "custom operator on two 2-digit numbers: 62*87=36, 56*41=63, 82*53=15, 94*21=?",
+    "optionLetters": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "answer": "D",
+    "difficulty": 2,
+    "explanation": "Ikki sonni qo‘shamiz va yig‘indining raqamlarini ko‘paytiramiz: 62+87=149 → 1·4·9=36. 94+21=115 → 1·1·5=5."
+  },
+  {
+    "id": "eyuf-19",
+    "file": "/eyuf/eyuf-19.png",
+    "family": "visual_pattern_matching",
+    "rule": "(Q29) a 5-layer stacked-bar 'pyramid' (purple/blue/green/yellow/red, narrow-to-w",
+    "optionLetters": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "explanation": "Piramidani yuqoridan qaraganda eng katta (qizil) qavat tashqarida, eng kichik (binafsha) markazda ko‘rinadi: qizil, sariq, yashil, ko‘k, binafsha — bu 4-rasm."
+  },
+  {
+    "id": "eyuf-23",
+    "file": "/eyuf/eyuf-23.png",
+    "family": "shape_properties",
+    "rule": "identify which net among 4 unfolds into a pyramid",
+    "optionLetters": [
+      "A",
+      "B",
+      "D",
+      "E"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "explanation": "Piramida yoyilmasi — kvadrat asos va unga yopishgan uchburchak yon yoqlar. Bu b) yoyilma."
+  },
+  {
+    "id": "eyuf-24",
+    "file": "/eyuf/eyuf-24.png",
+    "family": "visual_matrix",
+    "rule": "3x3 shape matrix: outer shape = col1 shape in col2's color containing col2 shape",
+    "optionLetters": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "answer": "C",
+    "difficulty": 2,
+    "explanation": "Uchinchi katak: 1-ustun shakli 2-ustun rangida, ichida 2-ustun shakli 1-ustun rangida. Demak, havorang beshburchak ichida qizil uchburchak."
+  },
+  {
+    "id": "eyuf-25",
+    "file": "/eyuf/eyuf-25.png",
+    "family": "numeric_code_pattern",
+    "rule": "digit-product doubled: f(ab)=2*(a*b)",
+    "optionLetters": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "A",
+    "difficulty": 2,
+    "explanation": "Raqamlar ko‘paytmasi ikkiga ko‘paytiriladi: 21 → 2·1·2=4, 34 → 3·4·2=24. 25 → 2·5·2=20."
+  },
+  {
+    "id": "eyuf-26",
+    "file": "/eyuf/eyuf-26.png",
+    "family": "numeric_code_pattern",
+    "rule": "f(a,b,c) = a*b + c, 4th column is the result",
+    "optionLetters": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "D",
+    "difficulty": 2,
+    "explanation": "Har qatorda: 1-son × 2-son + 3-son: 7·6+3=45, 8·8+1=65. Oxirgi qator: 4·6+9=33."
+  },
+  {
+    "id": "eyuf-27",
+    "file": "/eyuf/eyuf-27.png",
+    "family": "numeric_code_pattern",
+    "rule": "f(a,b) = concat(|a-b|, a+b)",
+    "optionLetters": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "D",
+    "difficulty": 2,
+    "explanation": "Natija ikki qismdan iborat: sonlar ayirmasi va yig‘indisi: 6+4 → 2 va 10 → 210. 7+6 → 1 va 13 → 113."
+  },
+  {
+    "id": "eyuf-29",
+    "file": "/eyuf/eyuf-29.png",
+    "family": "verbal_classification",
+    "rule": "odd one out by semantic category (metals vs gemstone)",
+    "optionLetters": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "D",
+    "difficulty": 1,
+    "explanation": "Kumush, oltin va mis — metallar, zumrad esa qimmatbaho tosh."
+  },
+  {
+    "id": "eyuf-30",
+    "file": "/eyuf/eyuf-30.png",
+    "family": "verbal_wordplay",
+    "rule": "letter-bank test: which word cannot be spelled using only the letters available ",
+    "optionLetters": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "B",
+    "difficulty": 2,
+    "explanation": "YAKKASAROY so‘zida L harfi yo‘q, shuning uchun “Kasal” so‘zini tuzib bo‘lmaydi."
+  },
+  {
+    "id": "eyuf-32",
+    "file": "/eyuf/eyuf-32.png",
+    "family": "verbal_wordplay",
+    "rule": "anagram -> city -> region/province",
+    "optionLetters": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "D",
+    "difficulty": 2,
+    "explanation": "SHAQIR harflaridan QARSHI shahri tuziladi. Qarshi — Qashqadaryo viloyatining markazi."
+  },
+  {
+    "id": "eyuf-33",
+    "file": "/eyuf/eyuf-33.png",
+    "family": "verbal_wordplay",
+    "rule": "letter-to-digit substitution cipher applied to a new word",
+    "optionLetters": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "explanation": "DILNORA = 7328164: D=7, I=3, L=2, N=8, O=1, R=6, A=4. NODIRA = 8-1-7-3-6-4 = 817364."
+  },
+  {
+    "id": "eyuf-34",
+    "file": "/eyuf/eyuf-34.png",
+    "family": "verbal_wordplay",
+    "rule": "find bracketed word completing word1-prefix and starting word2-suffix, then iden",
+    "optionLetters": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "C",
+    "difficulty": 2,
+    "explanation": "Qavsdagi so‘z — DOR: AYBDOR va DORBOZ. Unda R harfi bor."
+  },
+  {
+    "id": "eyuf-35",
+    "file": "/eyuf/eyuf-35.png",
+    "family": "visual_matrix",
+    "rule": "3x3 arrow/chevron matrix: rows are sets of {left,right,down} chevron-bundles wit",
+    "optionLetters": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "C",
+    "difficulty": 2,
+    "explanation": "Har qatorda strelkalar soni bir xil (1, 2, 3) va yo‘nalishlar takrorlanmaydi. Uchinchi qatorga uchta pastga qaragan strelka yetishmaydi."
+  },
+  {
+    "id": "eyuf-36",
+    "file": "/eyuf/eyuf-36.png",
+    "family": "numeric_code_pattern",
+    "rule": "f(a,b) = (a+b)*2 inside brackets",
+    "optionLetters": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "C",
+    "difficulty": 2,
+    "explanation": "Qavs ichidagi son — chetdagi sonlar yig‘indisining ikki baravari: (17+39)·2=112. (28+49)·2=154."
+  },
+  {
+    "id": "eyuf-37",
+    "file": "/eyuf/eyuf-37.png",
+    "family": "numeric_grid_pattern",
+    "rule": "4x4 grid where every row follows +1,+2,+3 increments; answer options show the 4 ",
+    "optionLetters": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "B",
+    "difficulty": 3,
+    "explanation": "Har qatorda sonlar +1, +2, +3 ga oshadi: 11, 12, 14, 17; 13, 14, 16, 19; 14, 15, 17, 20. Bo‘sh kataklarga 12; 14, 16; 20 tushadi."
+  },
+  {
+    "id": "eyuf-38",
+    "file": "/eyuf/eyuf-38.png",
+    "family": "sequence",
+    "rule": "Fibonacci-style: each term = sum of previous two",
+    "optionLetters": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "D",
+    "difficulty": 1,
+    "explanation": "Har bir son oldingi ikki sonning yig‘indisi: 23+40=63, 40+63=103."
+  },
+  {
+    "id": "eyuf-40",
+    "file": "/eyuf/eyuf-40.png",
+    "family": "sequence",
+    "rule": "cyclic sequence (period 6) + modular arithmetic to find the Nth item",
+    "optionLetters": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "D",
+    "difficulty": 2,
+    "explanation": "Rasmlar 6 tadan takrorlanadi. 132 soni 6 ga qoldiqsiz bo‘linadi, demak 132-stiker 6-rasm — plyus belgisi."
+  },
+  {
+    "id": "eyuf-47",
+    "file": "/eyuf/eyuf-47.png",
+    "family": "spatial_reasoning",
+    "rule": "top-down floor-plan matching for a furnished room (L-sofa, table, cabinet)",
+    "optionLetters": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "C",
+    "difficulty": 2,
+    "explanation": "Yuqoridan qaraganda burchak divan xona burchagida, kreslo uning oldida, stol o‘ng tomonda, javon chap devorda turadi — bu 1-rasm."
+  },
+  {
+    "id": "eyuf-51",
+    "file": "/eyuf/eyuf-51.png",
+    "family": "numeric_logic",
+    "rule": "magic-square-style constraint sum (algebraic, verified by linear system)",
+    "optionLetters": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "D",
+    "difficulty": 3,
+    "explanation": "Tomonlar yig‘indisi 13 bo‘lishi uchun yagona joylashuv: burchaklarda 8, 2, 1, 5 (tepada 3, chapda 4). Bo‘yalgan aylanalar: 8+2+1+5=16."
+  },
+  {
+    "id": "eyuf-52",
+    "file": "/eyuf/eyuf-52.png",
+    "family": "numeric_pattern",
+    "rule": "3x3 number grid, find relationship between columns",
+    "optionLetters": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "C",
+    "difficulty": 1,
+    "explanation": "Har ustun teng qadam bilan o‘sadi: 5, 6, 7; 3, 4, 5; 20, 30, 40."
+  },
+  {
+    "id": "eyuf-53",
+    "file": "/eyuf/eyuf-53.png",
+    "family": "verbal_reasoning",
+    "rule": "semantic category - find the odd word out",
+    "optionLetters": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "C",
+    "difficulty": 1,
+    "explanation": "Yomg‘ir, qor va do‘l — yog‘in turlari, momaqaldiroq esa yog‘in emas."
+  },
+  {
+    "id": "eyuf-55",
+    "file": "/eyuf/eyuf-55.png",
+    "family": "numeric_logic",
+    "rule": "symbol-substitution system of equations (icons = unknowns)",
+    "optionLetters": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "D",
+    "difficulty": 2,
+    "explanation": "Qo‘ziqorin = 27:3 = 9, barg = (39−9):2 = 15, qo‘ziqorin to‘dasi = 15+3 = 18. Avval ko‘paytiramiz: 15 + 9·18 = 177."
+  },
+  {
+    "id": "eyuf-57",
+    "file": "/eyuf/eyuf-57.png",
+    "family": "quantitative_word_problem",
+    "rule": "fencepost / interval counting",
+    "optionLetters": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "explanation": "1000 m ni 50 m dan bo‘lsak, 20 oraliq chiqadi. Ustunlar oraliqdan bitta ko‘p: 21 ta."
+  },
+  {
+    "id": "eyuf-58",
+    "file": "/eyuf/eyuf-58.png",
+    "family": "quantitative_word_problem",
+    "rule": "transfer/difference algebra",
+    "optionLetters": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "C",
+    "difficulty": 1,
+    "explanation": "Dinorada 4 ta kamayadi, Xadichada 4 ta ko‘payadi, farq 4+4=8 ta."
+  },
+  {
+    "id": "eyuf-59",
+    "file": "/eyuf/eyuf-59.png",
+    "family": "quantitative_word_problem",
+    "rule": "cutting a strip into equal pieces, count cuts",
+    "optionLetters": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "explanation": "36 m ni 3 m dan bo‘lsak, 12 bo‘lak chiqadi. Kesishlar bo‘lakdan bitta kam: 11 ta."
+  },
+  {
+    "id": "eyuf-60",
+    "file": "/eyuf/eyuf-60.png",
+    "family": "quantitative_word_problem",
+    "rule": "age word problem",
+    "optionLetters": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "explanation": "Akasi hozir 8+3=11 yoshda, Nodira 11−6=5 yoshda."
+  }
+]
