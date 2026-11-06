@@ -1,1 +1,610 @@
-[]
+[
+ {
+  "id": "kitob-sifreler-t1-q1a",
+  "file": "/kitob/kitob-sifreler-t1-q1a.png",
+  "family": "Shifrlar",
+  "rule": "harf → raqam almashtirish",
+  "optionLetters": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E"
+  ],
+  "answer": "B",
+  "difficulty": 1,
+  "explanation": "KARABİBER → 952573742 dan: K=9, A=5, R=2, B=7, İ=3, E=4. BERİBAK = 7 4 2 3 7 5 9 = 7423759."
+ },
+ {
+  "id": "kitob-sifreler-t1-q1b",
+  "file": "/kitob/kitob-sifreler-t1-q1b.png",
+  "family": "Shifrlar",
+  "rule": "raqam → harf (teskari)",
+  "optionLetters": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E"
+  ],
+  "answer": "D",
+  "difficulty": 1,
+  "explanation": "K=9, A=5, R=2, B=7, İ=3, E=4. 37524 = İ B A R E, ya’ni İBARE."
+ },
+ {
+  "id": "kitob-sifreler-t1-q2a",
+  "file": "/kitob/kitob-sifreler-t1-q2a.png",
+  "family": "Shifrlar",
+  "rule": "harf → belgi almashtirish",
+  "optionLetters": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E"
+  ],
+  "answer": "C",
+  "difficulty": 1,
+  "explanation": "KORKUTELİ dan: K=○, O=□, R=▲, U=◆, T=❖, E=●, L=■, İ=✱. ERİKOTU = ● ▲ ✱ ○ □ ❖ ◆."
+ },
+ {
+  "id": "kitob-sifreler-t1-q2b",
+  "file": "/kitob/kitob-sifreler-t1-q2b.png",
+  "family": "Shifrlar",
+  "rule": "belgi → harf (teskari)",
+  "optionLetters": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E"
+  ],
+  "answer": "A",
+  "difficulty": 1,
+  "explanation": "K=○, İ=✱, L=■, O=□, U=◆. ○✱■□■◆ = K İ L O L U, ya’ni KİLOLU."
+ },
+ {
+  "id": "kitob-sifreler-t1-q3",
+  "file": "/kitob/kitob-sifreler-t1-q3.png",
+  "family": "Shifrlar",
+  "rule": "aralash kodlar, takror naqshi",
+  "optionLetters": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E"
+  ],
+  "answer": "D",
+  "difficulty": 2,
+  "explanation": "Kodlar qatorlarga mos tartibda emas. AYAK x-y-x-z naqshida, kodlardan faqat 2321 shunday: A=2, Y=3, K=1. TURA = 4652, demak T=4, R=5. TARA = 4 2 5 2 = 4252."
+ },
+ {
+  "id": "kitob-sifreler-t1-q4",
+  "file": "/kitob/kitob-sifreler-t1-q4.png",
+  "family": "Shifrlar",
+  "rule": "aralash kodlar, belgilar chastotasi",
+  "optionLetters": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E"
+  ],
+  "answer": "B",
+  "difficulty": 2,
+  "explanation": "□ to‘rtta qatorda, 1 ham to‘rtta kodda bor: □=1. ○ ikkita qatorda, 3 ham ikkita kodda: ○=3. ▲○● qatorida □ yo‘q, ○ bor, demak kodida 1 yo‘q, 3 bor: faqat 235."
+ },
+ {
+  "id": "kitob-sifreler-t1-q5",
+  "file": "/kitob/kitob-sifreler-t1-q5.png",
+  "family": "Shifrlar",
+  "rule": "aralash kodlar, takror naqshi",
+  "optionLetters": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E"
+  ],
+  "answer": "E",
+  "difficulty": 2,
+  "explanation": "■▲■▲ x-y-x-y naqshida, kodlardan faqat 1515 shunday: ■=1, ▲=5. ▲○△■ 5 bilan boshlanib 1 bilan tugaydi: 5341."
+ },
+ {
+  "id": "kitob-sifreler-t1-q6",
+  "file": "/kitob/kitob-sifreler-t1-q6.png",
+  "family": "Shifrlar",
+  "rule": "aralash kodlar, takror naqshi",
+  "optionLetters": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E"
+  ],
+  "answer": "D",
+  "difficulty": 2,
+  "explanation": "EKE x-y-x naqshida, faqat ▲○▲ shunday: E=▲, K=○. TIK K bilan tugaydi, ○ bilan tugaydigan kod faqat □●○. Demak TIK = □●○."
+ },
+ {
+  "id": "kitob-sifreler-t1-q7",
+  "file": "/kitob/kitob-sifreler-t1-q7.png",
+  "family": "Shifrlar",
+  "rule": "aralash kodlar, raqamlar chastotasi",
+  "optionLetters": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E"
+  ],
+  "answer": "D",
+  "difficulty": 2,
+  "explanation": "4 to‘rtta sonda, ● to‘rtta kodda: 4=●. 2 uchta sonda, ■ uchta kodda: 2=■. 124 va 241 dan 1=□; 326 = ○■▲ dan 3=○, 6=▲; 345 = ○●△ dan 5=△. 564 = △▲●."
+ },
+ {
+  "id": "kitob-sifreler-t1-q8",
+  "file": "/kitob/kitob-sifreler-t1-q8.png",
+  "family": "Shifrlar",
+  "rule": "aralash kodlar, takror naqshi",
+  "optionLetters": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E"
+  ],
+  "answer": "C",
+  "difficulty": 2,
+  "explanation": "PUPA x-y-x-z naqshida, faqat 3537 shunday: P=3, U=5, A=7. 7 bilan tugaydigan boshqa kod 2617, demak REKA = 2617: R=2, E=6, K=1. KUPE = 1 5 3 6 = 1536."
+ },
+ {
+  "id": "kitob-sifreler-t1-q9",
+  "file": "/kitob/kitob-sifreler-t1-q9.png",
+  "family": "Shifrlar",
+  "rule": "aralash kodlar, takror naqshi",
+  "optionLetters": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E"
+  ],
+  "answer": "A",
+  "difficulty": 2,
+  "explanation": "TASA va KORO x-y-z-y naqshida: 7545 yoki 3212. SIRA va TOKA ham A bilan tugaydi, shuning uchun TASA = 3212 (A=2), KORO = 7545. SIRA = 1 ? 4 2 = 1642."
+ },
+ {
+  "id": "kitob-sifreler-t1-q11",
+  "file": "/kitob/kitob-sifreler-t1-q11.png",
+  "family": "Shifrlar",
+  "rule": "aralash kodlar, takror naqshi",
+  "optionLetters": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E"
+  ],
+  "answer": "D",
+  "difficulty": 3,
+  "explanation": "RUF va FAR uchun 851 yoki 198 qoladi. LAL x-y-x naqshida va A ni o‘rtada saqlaydi; FAR = 851 bo‘lsa A=5, LAL = 454 mos keladi. Demak RUF = 198."
+ },
+ {
+  "id": "kitob-sifreler-t1-q12",
+  "file": "/kitob/kitob-sifreler-t1-q12.png",
+  "family": "Shifrlar",
+  "rule": "aralash kodlar, belgilar chastotasi",
+  "optionLetters": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E"
+  ],
+  "answer": "C",
+  "difficulty": 2,
+  "explanation": "○ to‘rtta qatorda, 3 to‘rtta kodda: ○=3. ○ siz yagona qator ▲■□● = 5214: ▲=5, ■=2, □=1, ●=4. ▲○●■ = 5 3 4 2 = 5342."
+ },
+ {
+  "id": "kitob-sifreler-t1-q14",
+  "file": "/kitob/kitob-sifreler-t1-q14.png",
+  "family": "Shifrlar",
+  "rule": "aralash kodlar, raqamlar chastotasi",
+  "optionLetters": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E"
+  ],
+  "answer": "B",
+  "difficulty": 2,
+  "explanation": "2 uchta sonda, △ uchta kodda: 2=△; 3 bitta sonda, ▲ bitta kodda: 3=▲. 525 = ●△● (5=●), 242 = △○△ (4=○). 2345 = △▲○●."
+ },
+ {
+  "id": "kitob-sifreler-t1-q16",
+  "file": "/kitob/kitob-sifreler-t1-q16.png",
+  "family": "Shifrlar",
+  "rule": "aralash kodlar, harflar chastotasi",
+  "optionLetters": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E"
+  ],
+  "answer": "B",
+  "difficulty": 2,
+  "explanation": "S uch marta, 7 ham uch marta: S=7, SUR = 739. HAS va KAL o‘rtadagi A ni bo‘lishadi, 807 va 405 o‘rtadagi 0 ni: A=0, L=5. FES = 617, F=6. LİF = 5 ? 6 = 526."
+ },
+ {
+  "id": "kitob-islemler-t9-q1",
+  "file": "/kitob/kitob-islemler-t9-q1.png",
+  "family": "Amallar",
+  "rule": "a ❖ b = a + √b",
+  "optionLetters": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E"
+  ],
+  "answer": "B",
+  "difficulty": 1,
+  "explanation": "a ❖ b = a + √b: 1 + 2 = 3, 2 + 4 = 6, 4 + 3 = 7. Demak 5 ❖ 25 = 5 + 5 = 10."
+ },
+ {
+  "id": "kitob-islemler-t9-q2",
+  "file": "/kitob/kitob-islemler-t9-q2.png",
+  "family": "Amallar",
+  "rule": "a ❖ b = √a − √b",
+  "optionLetters": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E"
+  ],
+  "answer": "B",
+  "difficulty": 2,
+  "explanation": "a ❖ b = √a − √b: 3 − 2 = 1, 4 − 2 = 2, 11 − 8 = 3. Demak 169 ❖ 25 = 13 − 5 = 8."
+ },
+ {
+  "id": "kitob-islemler-t9-q3",
+  "file": "/kitob/kitob-islemler-t9-q3.png",
+  "family": "Amallar",
+  "rule": "a ❖ b = a · √b",
+  "optionLetters": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E"
+  ],
+  "answer": "D",
+  "difficulty": 1,
+  "explanation": "a ❖ b = a · √b: 3·1 = 3, 2·3 = 6, 5·2 = 10. Demak 7 ❖ 16 = 7·4 = 28."
+ },
+ {
+  "id": "kitob-islemler-t9-q4",
+  "file": "/kitob/kitob-islemler-t9-q4.png",
+  "family": "Amallar",
+  "rule": "a ❖ b = √a · b",
+  "optionLetters": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E"
+  ],
+  "answer": "C",
+  "difficulty": 1,
+  "explanation": "a ❖ b = √a · b: 1·7 = 7, 3·8 = 24, 2·3 = 6. Demak 25 ❖ 7 = 5·7 = 35."
+ },
+ {
+  "id": "kitob-islemler-t9-q5",
+  "file": "/kitob/kitob-islemler-t9-q5.png",
+  "family": "Amallar",
+  "rule": "a ❖ b = √(a · b)",
+  "optionLetters": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E"
+  ],
+  "answer": "A",
+  "difficulty": 2,
+  "explanation": "a ❖ b = √(a·b): √36 = 6, √36 = 6, √16 = 4. Demak 27 ❖ 3 = √81 = 9."
+ },
+ {
+  "id": "kitob-islemler-t9-q6",
+  "file": "/kitob/kitob-islemler-t9-q6.png",
+  "family": "Amallar",
+  "rule": "a ❖ b = √(a · b) : 2",
+  "optionLetters": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E"
+  ],
+  "answer": "B",
+  "difficulty": 2,
+  "explanation": "a ❖ b = √(a·b) : 2: √36 : 2 = 3, √36 : 2 = 3, √64 : 2 = 4. Demak 12 ❖ 3 = √36 : 2 = 3."
+ },
+ {
+  "id": "kitob-islemler-t9-q7",
+  "file": "/kitob/kitob-islemler-t9-q7.png",
+  "family": "Amallar",
+  "rule": "a ❖ b = √(a · b : 3)",
+  "optionLetters": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E"
+  ],
+  "answer": "B",
+  "difficulty": 3,
+  "explanation": "a ❖ b = √(a·b : 3): √4 = 2, √9 = 3, √36 = 6. Demak 3 ❖ 16 = √(48 : 3) = √16 = 4."
+ },
+ {
+  "id": "kitob-tablolar-t9-q1",
+  "file": "/kitob/kitob-tablolar-t9-q1.png",
+  "family": "Jadvallar",
+  "rule": "ko‘paytirish jadvali, 3 noma’lum",
+  "optionLetters": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E"
+  ],
+  "answer": "C",
+  "difficulty": 2,
+  "explanation": "Katak = satr × ustun: a·b = 64, a·c = 24b, b·c = 24. b = 24/c va a = 64/b = 8c/3; a·c = 24b dan 8c²/3 = 576/c, c³ = 216, c = 6."
+ },
+ {
+  "id": "kitob-tablolar-t9-q2",
+  "file": "/kitob/kitob-tablolar-t9-q2.png",
+  "family": "Jadvallar",
+  "rule": "ko‘paytirish jadvali, nisbat",
+  "optionLetters": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E"
+  ],
+  "answer": "E",
+  "difficulty": 1,
+  "explanation": "a·a = c va b·b = 4c. Demak (a² + b²) : (3c) = (c + 4c) : 3c = 5/3."
+ },
+ {
+  "id": "kitob-tablolar-t9-q3",
+  "file": "/kitob/kitob-tablolar-t9-q3.png",
+  "family": "Jadvallar",
+  "rule": "ko‘paytirish jadvali, 3 noma’lum",
+  "optionLetters": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E"
+  ],
+  "answer": "A",
+  "difficulty": 2,
+  "explanation": "a·b = 48, a·c = 32, b·c = 96. a² = 48·32 : 96 = 16, a = 4, b = 12, c = 8. a + b + c = 24."
+ },
+ {
+  "id": "kitob-tablolar-t9-q4",
+  "file": "/kitob/kitob-tablolar-t9-q4.png",
+  "family": "Jadvallar",
+  "rule": "ko‘paytirish jadvali, 3 noma’lum",
+  "optionLetters": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E"
+  ],
+  "answer": "A",
+  "difficulty": 3,
+  "explanation": "a·b = 9c, a·c = 216, b·c = 72. (a·c)(b·c) : (a·b) = c² ⇒ 216·72 : 9c = c², c³ = 1728, c = 12."
+ },
+ {
+  "id": "kitob-tablolar-t9-q5",
+  "file": "/kitob/kitob-tablolar-t9-q5.png",
+  "family": "Jadvallar",
+  "rule": "ko‘paytirish jadvali, 3 noma’lum",
+  "optionLetters": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E"
+  ],
+  "answer": "B",
+  "difficulty": 2,
+  "explanation": "a·b = 108, a·c = 36, b·c = 48. a² = 108·36 : 48 = 81, a = 9, b = 12, c = 4. a + b + c = 25."
+ },
+ {
+  "id": "kitob-tablolar-t9-q6",
+  "file": "/kitob/kitob-tablolar-t9-q6.png",
+  "family": "Jadvallar",
+  "rule": "ko‘paytirish jadvali, 3 noma’lum",
+  "optionLetters": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E"
+  ],
+  "answer": "E",
+  "difficulty": 3,
+  "explanation": "a·b = 96, a·c = 243, b·c = 128. c² = 243·128 : 96 = 324, c = 18."
+ },
+ {
+  "id": "kitob-teraziler-t3-q1",
+  "file": "/kitob/kitob-teraziler-t3-q1.png",
+  "family": "Tarozilar",
+  "rule": "tarozi, 3 belgi",
+  "optionLetters": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E"
+  ],
+  "answer": "B",
+  "difficulty": 2,
+  "explanation": "3■ + ● = 2▲ va 2▲ + ■ = 3●. Birinchisini ikkinchisiga qo‘ysak: 4■ + ● = 3●, ya’ni ● = 2■. Javob: ■■."
+ },
+ {
+  "id": "kitob-teraziler-t3-q2",
+  "file": "/kitob/kitob-teraziler-t3-q2.png",
+  "family": "Tarozilar",
+  "rule": "tarozi, 3 belgi",
+  "optionLetters": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E"
+  ],
+  "answer": "B",
+  "difficulty": 2,
+  "explanation": "3■ = 2●, demak ● = 1,5■. 3● = 2■ + ▲ ⇒ 4,5■ = 2■ + ▲, ▲ = 2,5■ = ■ + ●. Javob: ■●."
+ },
+ {
+  "id": "kitob-teraziler-t3-q3",
+  "file": "/kitob/kitob-teraziler-t3-q3.png",
+  "family": "Tarozilar",
+  "rule": "tarozi, 3 belgi",
+  "optionLetters": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E"
+  ],
+  "answer": "C",
+  "difficulty": 3,
+  "explanation": "3▲ = ■ + ▲ ⇒ ■ = 2▲. 2■ + ▲ = 2● ⇒ 5▲ = 2●. Demak ●● = 5▲ = ■▲▲▲."
+ },
+ {
+  "id": "kitob-teraziler-t3-q4",
+  "file": "/kitob/kitob-teraziler-t3-q4.png",
+  "family": "Tarozilar",
+  "rule": "tarozi, 3 belgi",
+  "optionLetters": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E"
+  ],
+  "answer": "A",
+  "difficulty": 2,
+  "explanation": "2● = 3▲ ⇒ ● = 1,5▲. ■ + 2▲ = ● + ▲ ⇒ ■ = 0,5▲. ● + ■ + ▲ = 3▲ = ●●."
+ },
+ {
+  "id": "kitob-teraziler-t8-q1",
+  "file": "/kitob/kitob-teraziler-t8-q1.png",
+  "family": "Tarozilar",
+  "rule": "tarozi, 3 belgi",
+  "optionLetters": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E"
+  ],
+  "answer": "B",
+  "difficulty": 2,
+  "explanation": "● + ▲ = 2■ va 2■ + ● = 2▲. Birinchisini qo‘ysak: 2● + ▲ = 2▲, ▲ = 2●. Demak ▲ + ● = 3● = ●●●."
+ },
+ {
+  "id": "kitob-teraziler-t8-q2",
+  "file": "/kitob/kitob-teraziler-t8-q2.png",
+  "family": "Tarozilar",
+  "rule": "tarozi, 4 belgi",
+  "optionLetters": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E"
+  ],
+  "answer": "C",
+  "difficulty": 3,
+  "explanation": "■ + ▲ + 2★ = 2● va ★ + ● = 2■ + ▲. Ikkalasini qo‘shamiz: 3★ = ● + ■. Javob: ★★★."
+ },
+ {
+  "id": "kitob-teraziler-t8-q3",
+  "file": "/kitob/kitob-teraziler-t8-q3.png",
+  "family": "Tarozilar",
+  "rule": "tarozi, 3 belgi",
+  "optionLetters": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E"
+  ],
+  "answer": "E",
+  "difficulty": 2,
+  "explanation": "■ + ● = 3● ⇒ ■ = 2●. ● + ▲ = 2■ = 4● ⇒ ▲ = 3●. ● + ■ = 3● = ▲."
+ },
+ {
+  "id": "kitob-teraziler-t8-q4",
+  "file": "/kitob/kitob-teraziler-t8-q4.png",
+  "family": "Tarozilar",
+  "rule": "tarozi, 3 belgi",
+  "optionLetters": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E"
+  ],
+  "answer": "D",
+  "difficulty": 2,
+  "explanation": "2▲ + ■ = 3● va ● + ■ = 3▲. Ayirsak: 5▲ = 4●, ● = 1,25▲, ■ = 1,75▲. ■■ = 3,5▲ = ●● + ▲."
+ },
+ {
+  "id": "kitob-karsilastirma-t1-q1",
+  "file": "/kitob/kitob-karsilastirma-t1-q1.png",
+  "family": "Shakl taqqoslash",
+  "rule": "tomonlar − to‘g‘ri burchaklar",
+  "optionLetters": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E"
+  ],
+  "answer": "C",
+  "difficulty": 1,
+  "explanation": "Son = tomonlar soni − to‘g‘ri burchak belgilari: 4 − 0 = 4, 3 − 1 = 2, 5 − 2 = 3, 4 − 4 = 0. V shakl: 4 − 2 = 2."
+ },
+ {
+  "id": "kitob-karsilastirma-t1-q2",
+  "file": "/kitob/kitob-karsilastirma-t1-q2.png",
+  "family": "Shakl taqqoslash",
+  "rule": "oq doiralar — ikkilik kod",
+  "optionLetters": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E"
+  ],
+  "answer": "E",
+  "difficulty": 2,
+  "explanation": "Oq doira chapdan o‘ngga 8, 4, 2, 1 qiymatga ega, qora 0: ●●●○ = 1, ○●●● = 8, ○●○● = 10. 11 = 8 + 2 + 1 = ○●○○."
+ }
+]
