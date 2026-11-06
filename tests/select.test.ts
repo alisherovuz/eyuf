@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { composeExam, nextLevel, nextReviewState, pickPractice, type AttemptLite, FAMILY_CAP_PER_20 } from "@/lib/select";
-import { getQuestion } from "@/lib/questions";
+import { getQuestion, IMAGE_ITEMS } from "@/lib/questions";
 
 const DAY = 86_400_000;
 const NOW = Date.UTC(2026, 10, 8, 10);
@@ -37,10 +37,12 @@ describe("practice selection", () => {
     expect(count("kub")).toBeGreaterThan(count("tarozi"));
   });
 
-  it("uses each EYUF item once outside of review", () => {
+  it("uses each EYUF and book item once outside of review", () => {
     const h = simulate(250, () => true);
-    const eyuf = h.filter((a) => a.family === "eyuf").map((a) => a.questionId);
-    expect(new Set(eyuf).size).toBe(eyuf.length);
+    for (const f of ["eyuf", "kitob"]) {
+      const ids = h.filter((a) => a.family === f).map((a) => a.questionId);
+      expect(new Set(ids).size).toBe(ids.length);
+    }
   });
 
   it("brings a due mistake back as a new variant of the same rule", () => {
@@ -77,11 +79,12 @@ describe("spaced review", () => {
 });
 
 describe("exam", () => {
-  it("builds 30 distinct questions with 8 EYUF items", () => {
+  it("builds 30 distinct questions with 6 EYUF and up to 4 book items", () => {
     const qs = composeExam("full", [], new Set(), 5);
     expect(qs).toHaveLength(30);
     expect(new Set(qs.map((q) => q.fingerprint)).size).toBe(30);
-    expect(qs.filter((q) => q.source === "eyuf")).toHaveLength(8);
+    expect(qs.filter((q) => q.source === "eyuf")).toHaveLength(6);
+    expect(qs.filter((q) => q.source === "book").length).toBe(Math.min(4, IMAGE_ITEMS.kitob.length));
     expect(qs.filter((q) => q.source === "generator").every((q) => q.level >= 2)).toBe(true);
   });
 });

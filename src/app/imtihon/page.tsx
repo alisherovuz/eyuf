@@ -45,7 +45,7 @@ export default function ExamPage() {
         <div className="card stack">
           <span className="eyebrow">To‘liq</span>
           <b style={{ fontSize: 20 }}>30 savol · 60 daqiqa</b>
-          <span className="small muted">8 ta EYUF namunasi + 22 ta o‘rta va qiyin savol.</span>
+          <span className="small muted">6 ta EYUF namunasi, 4 ta PUZA kitobi savoli va 20 ta o‘rta yoki qiyin savol.</span>
           <button className="btn primary" onClick={() => start("full")}>Boshlash</button>
         </div>
         <div className="card stack">

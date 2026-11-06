@@ -15,7 +15,7 @@ export type Level = 1 | 2 | 3;
 
 export interface Question {
   id: string;
-  source: "generator" | "eyuf";
+  source: "generator" | "eyuf" | "book";
   family: string;
   rule: string;
   fingerprint: string;

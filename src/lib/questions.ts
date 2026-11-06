@@ -1,8 +1,9 @@
 import type { Level, Question } from "./types";
 import { GEN_BY_FAMILY, GENERATORS, generate, parseGenId } from "./gen";
 import eyufRaw from "@/data/eyuf-items.json";
+import bookRaw from "@/data/book-items.json";
 
-interface EyufItem {
+interface ImageItem {
   id: string;
   file: string;
   family: string;
@@ -13,24 +14,34 @@ interface EyufItem {
   explanation: string;
 }
 
-export const EYUF_ITEMS = eyufRaw as EyufItem[];
+export const IMAGE_ITEMS: Record<string, ImageItem[]> = {
+  eyuf: eyufRaw as ImageItem[],
+  kitob: bookRaw as ImageItem[],
+};
+export const IMAGE_FAMILIES = Object.keys(IMAGE_ITEMS);
 
 export const FAMILY_NAMES: Record<string, string> = {
   ...Object.fromEntries(GENERATORS.map((g) => [g.family, g.name])),
   eyuf: "EYUF namunalari",
+  kitob: "PUZA kitobi",
 };
-export const FAMILIES = [...GENERATORS.map((g) => g.family), "eyuf"];
+export const FAMILIES = [...GENERATORS.map((g) => g.family), ...IMAGE_FAMILIES];
 
-function eyufQuestion(item: EyufItem): Question {
+const PROMPTS: Record<string, string> = {
+  eyuf: "Rasmdagi savolni yeching va to‘g‘ri javob harfini tanlang.",
+  kitob: "PUZA kitobidan savol (matn turk va ingliz tilida). Rasmdagi savolni yeching va javob harfini tanlang.",
+};
+
+function imageQuestion(family: string, item: ImageItem): Question {
   const level = Math.min(3, Math.max(1, item.difficulty)) as Level;
   return {
     id: item.id,
-    source: "eyuf",
-    family: "eyuf",
+    source: family === "eyuf" ? "eyuf" : "book",
+    family,
     rule: item.id,
-    fingerprint: `eyuf|${item.id}`,
+    fingerprint: `${family}|${item.id}`,
     level,
-    prompt: "Rasmdagi savolni yeching va to‘g‘ri javob harfini tanlang.",
+    prompt: PROMPTS[family],
     diagram: { kind: "image", src: item.file },
     options: item.optionLetters.map((l) => ({ text: l })),
     answer: item.optionLetters.indexOf(item.answer),
@@ -39,13 +50,11 @@ function eyufQuestion(item: EyufItem): Question {
   };
 }
 
-const EYUF_BY_ID = new Map(EYUF_ITEMS.map((i) => [i.id, i]));
+const IMAGE_BY_ID = new Map(IMAGE_FAMILIES.flatMap((f) => IMAGE_ITEMS[f].map((i) => [i.id, { family: f, item: i }] as const)));
 
 export function getQuestion(id: string): Question | null {
-  if (id.startsWith("eyuf-")) {
-    const item = EYUF_BY_ID.get(id);
-    return item ? eyufQuestion(item) : null;
-  }
+  const img = IMAGE_BY_ID.get(id);
+  if (img) return imageQuestion(img.family, img.item);
   const p = parseGenId(id);
   if (!p || !GEN_BY_FAMILY[p.family]) return null;
   return generate(p.family, p.level, p.rule, p.seed);
@@ -67,5 +76,9 @@ const RULE_NAMES: Record<string, string> = {
 
 export function ruleName(family: string, rule: string) {
   if (family === "eyuf") return `EYUF savoli ${rule.replace("eyuf-", "№")}`;
+  if (family === "kitob") {
+    const it = IMAGE_BY_ID.get(rule)?.item;
+    return it ? `${it.family}: ${it.rule}` : rule;
+  }
   return RULE_NAMES[`${family}:${rule}`] ?? rule;
 }
