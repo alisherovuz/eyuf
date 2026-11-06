@@ -68,7 +68,7 @@ function build(rng: Rng, level: Level, rule: string): Built | null {
   const all = allMultis(n, 4, [...Array(n).keys()]);
   const asks = all.filter((m) => size(m) >= 1 && size(m) <= 3);
   const sides = new Set(eqs.flatMap(([L, R]) => [key(L), key(R)]));
-  for (const ask of rng.shuffle(asks)) {
+  for (const ask of rng.shuffle(asks.filter((m) => !sides.has(key(m))))) {
     const target = weightOf(ask, w);
     const corrects = all.filter((m) => {
       if (weightOf(m, w) !== target || key(m) === key(ask)) return false;
